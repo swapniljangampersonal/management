@@ -1,0 +1,30 @@
+{
+  "name": "todo",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "event": {
+      "type": "string",
+      "required": true
+    },
+    "task": {
+      "type": "string"
+    },
+    "worker": {
+      "type": "string"
+    },
+    "worker_pic": {
+      "type": "string"
+    },
+    "image": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

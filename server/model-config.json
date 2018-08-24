@@ -34,5 +34,25 @@
   "Role": {
     "dataSource": "db",
     "public": false
+  },
+  "event": {
+    "dataSource": "db",
+    "public": true
+  },
+  "task": {
+    "dataSource": "db",
+    "public": true
+  },
+  "worker": {
+    "dataSource": "db",
+    "public": true
+  },
+  "Container": {
+    "dataSource": "local-storage",
+    "public": true
+  },
+  "todo": {
+    "dataSource": "db",
+    "public": true
   }
 }

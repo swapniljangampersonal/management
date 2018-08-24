@@ -1,0 +1,21 @@
+{
+  "name": "worker",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "woker-name": {
+      "type": "string",
+      "required": true
+    },
+    "worker-pic": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
